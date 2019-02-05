@@ -1,0 +1,165 @@
+@font-face {
+  font-family: HKGrotesk;
+  src: url('/Fonts/HKGrotesk-Medium.woff')format('woff');
+}
+
+body {
+  font-family: HKGrotesk;
+  /*background-color: blue;*/
+  margin: 40px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/*header {
+  margin-bottom: 30px;
+}*/
+
+a {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ccc;
+  text-decoration: none;
+}
+a:link {
+  color: blue;
+}
+a:hover {
+  color: red;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+
+a:visited {
+  color: #2E0854;
+}
+.content {
+  margin: 0 15px;
+  position: relative;
+  background: #fff;
+  float: none;
+  width: 100%
+}
+.grid-row .column-two-thirds{
+  padding:0 15px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box
+}
+@media (min-width: 641px){
+  .grid-row .column-two-thirds{
+      float:left;
+      width:66.6666666667%
+  }
+}
+.mwai-title {
+  margin-top: 15px;
+}
+@media (min-width: 641px){
+  .mwai-title {
+      margin-top:40px
+  }
+}
+.mwai-title_text {
+  font-family: HKGrotesk;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 32px;
+  line-height: 1.09375
+}
+@media (min-width: 641px){
+  .mwai-title_text{
+      font-size:48px;
+      line-height:1.0416666667
+  }
+}
+.mwai-title_text--long{
+  font-family: HKGrotesk;
+  font-weight:700;
+  text-transform:none;
+  font-size:24px;
+  line-height:1.0416666667
+}
+@media (min-width: 641px){
+  .mwai-title_text--long{
+      font-size:36px;
+      line-height:1.1111111111
+  }
+}
+.about-mwai p:first-child{
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 19px;
+  line-height: 1.315789;
+  font-weight: 400;
+  text-transform: none;
+}
+.column-two-thirds p {
+  line-height: 1.4;
+}
+
+.heading-medium {
+  font-family:monospace;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 18px;
+  line-height: 1.2;
+  display: block;
+  margin-top: 1.25em;
+  margin-bottom: 0.5em;
+}
+@media (min-width: 641px){
+  .heading-medium {
+      margin-top: 1.875em;
+      margin-bottom: 0.83333em;
+      font-size: 24px;
+      line-height: 1.25;
+  }
+}
+.list {
+  padding: 0 40px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.list-bullet ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+.list-bullet li {
+  display: list-item;
+  margin-bottom: 5px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding-right: 20px;
+}
+
+
+.copyright {
+  color: #bbb;
+  font-size: 14px;
+}
+
+.copyright a {
+  color: #bbb;
+}
+
+@media (max-width: 850px) {
+  body {
+      margin: 10px;
+      font-size: 14px;
+  }
+  h1 {
+      font-size: 16px;
+  }
+  li {
+      display: block;
+      padding: 5px;
+  }  
+}
